@@ -11,6 +11,6 @@ For a primal formulation of the problem of a 2D circular dielectric in a uniform
 
 For a more advanced FEEC formulation of the same problem, see electrostatic_FEEC.py.  This uses a choice of elements such that $\sigma=\nabla \cdot D$ is fully continuous (in fact it vanishes identically) and $u=E=-\grad{\phi}$ is continuous only in the component parallel to the element edges (this is clearly good since material boundaries lie along element edges in a conforming discretization, as here).
 
-![E_magnitude_primal](../png/Ed_magnitude_primal.png "Magnitude of the electric field from the primal solution.")
+![E_magnitude_primal](png/Ed_magnitude_primal.png "Magnitude of the electric field from the primal solution.")
 
-![E_magnitude_FEEC](../png/Ed_magnitude_FEEC.png "Magnitude of the electric field from the FEEC solution as described in the text.")
+![E_magnitude_FEEC](png/Ed_magnitude_FEEC.png "Magnitude of the electric field from the FEEC solution as described in the text.")
